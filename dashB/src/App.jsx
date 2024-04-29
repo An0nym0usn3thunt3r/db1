@@ -1,9 +1,9 @@
-import { AreaChart } from '@tremor/react';
+import { AreaChartHero } from "./components/areachart"
 
 export default function App() {
   return ( 
     <div>
-      < AreaChart/>
+      < AreaChartHero/>
       <div  className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
         <div className='flax'>
           <img src="icon1.jpg" alt="" />
